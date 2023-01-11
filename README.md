@@ -125,18 +125,18 @@ trained_models/
 
 ```
 cd code/
-python3 eval.py --dataset HAZE4K --model_name DEA-Net --pre_trained_model PSNR3425_SSIM9985.pth
-python3 eval.py --dataset ITS --model_name DEA-Net --pre_trained_model PSNR4131_SSIM9945.pth
-python3 eval.py --dataset OTS --model_name DEA-Net --pre_trained_model PSNR3659_SSIM9897.pth
+python3 eval.py --dataset HAZE4K --model_name DEA-Net-CR --pre_trained_model PSNR3425_SSIM9985.pth
+python3 eval.py --dataset ITS --model_name DEA-Net-CR --pre_trained_model PSNR4131_SSIM9945.pth
+python3 eval.py --dataset OTS --model_name DEA-Net-CR --pre_trained_model PSNR3659_SSIM9897.pth
 ```
 
 4. (Optional) Run the following script to evaluation the pre-trained model and save the inference results:
 
 ```
 cd code/
-python3 eval.py --dataset HAZE4K --model_name DEA-Net --pre_trained_model PSNR3425_SSIM9985.pth --save_infer_results
-python3 eval.py --dataset ITS --model_name DEA-Net --pre_trained_model PSNR4131_SSIM9945.pth --save_infer_results
-python3 eval.py --dataset OTS --model_name DEA-Net --pre_trained_model PSNR3659_SSIM9897.pth --save_infer_results
+python3 eval.py --dataset HAZE4K --model_name DEA-Net-CR --pre_trained_model PSNR3425_SSIM9985.pth --save_infer_results
+python3 eval.py --dataset ITS --model_name DEA-Net-CR --pre_trained_model PSNR4131_SSIM9945.pth --save_infer_results
+python3 eval.py --dataset OTS --model_name DEA-Net-CR --pre_trained_model PSNR3659_SSIM9897.pth --save_infer_results
 ```
 Inference results will be saved in ```experiment/<dataset>/<model_name>/<pre_trained_model>/```
 
