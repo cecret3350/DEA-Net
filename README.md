@@ -33,8 +33,7 @@ conda activate pytorch_1_10
 conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 pip install -r requirements.txt
 ```
-Make sure the version of pillow is 8.3.2 when evaluating on OTS with jpeg images as input. This is to keep the decoding of jpeg images consistent. 
-
+When evaluating on OTS with jpeg images as input, please make sure that the version of pillow is 8.3.2, this is to ensure that the same decoding algorithm is used for jpeg images during evaluation and training.
 ### Data Preparation
 
 1. Download the dataset: [[RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)] and [[HAZE4K](https://github.com/liuye123321/DMT-Net)].
