@@ -8,11 +8,11 @@ This repo is the official implementation of "DEA-Net: Single image dehazing base
 
 ## Overall Architecture
 
-<img src="D:\Cecret\paper\dehaze\DEA-NetV3\architecture.png" alt="Architecture" style="zoom:20%;" />
+<img src="fig/architecture.png" alt="Architecture" style="zoom:20%;" />
 
 ## Results
 
-
+<img src="fig/results.png" alt="Results" style="zoom:20%;" />
 
 ## Getting Started
 
