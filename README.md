@@ -4,7 +4,7 @@ This repo is the official implementation of "DEA-Net: Single image dehazing base
 
 **News**:
 
-- Jan 11, 2023: Released evaluation codes and pre-trained models.
+- Jan 11, 2023: Released evaluation codes and reparameterized pre-trained models.
 
 ## Overall Architecture
 
@@ -33,6 +33,7 @@ conda activate pytorch_1_10
 conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 pip install -r requirements.txt
 ```
+Make sure the version of pillow is 8.3.2 when evaluating on OTS with jpeg images as input. This is to keep the decoding of jpeg images consistent. 
 
 ### Data Preparation
 
@@ -138,6 +139,7 @@ python3 eval.py --dataset HAZE4K --pre_trained_model PSNR3425_SSIM9985.pth --sav
 python3 eval.py --dataset ITS --pre_trained_model PSNR4131_SSIM9945.pth --save_infer_results
 python3 eval.py --dataset OTS --pre_trained_model PSNR3659_SSIM9897.pth --save_infer_results
 ```
+Inference results will be saved in ```experiment/<dataset>/<model_name>/<pre_trained_model>/```
 
 ## Citation
 

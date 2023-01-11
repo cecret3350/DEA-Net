@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--exp_dir', type=str, default='../experiment')
 parser.add_argument('--dataset', type=str, default='ITS')
-parser.add_argument('--val_dataset_dir', type=str, default='/home/lab/dataset/RESIDE/SOTS/indoor')
+parser.add_argument('--val_dataset_dir', type=str)
 parser.add_argument('--model', type=str, default='baseline', help='model name')
 parser.add_argument('--exp_name', type=str, default='DEA-Net', help='experiment name')
 parser.add_argument('--saved_infer_dir', type=str, default='saved_infer_dir')
@@ -16,6 +16,7 @@ parser.add_argument('--pre_trained_model', type=str, default='null', help='path 
 parser.add_argument('--save_infer_results', action='store_true', default=False, help='save the infer results during validation')
 opt=parser.parse_args()
 
+opt.val_dataset_dir = os.path.join('../dataset/', opt.dataset, 'test')
 exp_dataset_dir = os.path.join(opt.exp_dir, opt.dataset)
 exp_model_dir = os.path.join(exp_dataset_dir, opt.exp_name)
 
