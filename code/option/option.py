@@ -7,8 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--exp_dir', type=str, default='../experiment')
 parser.add_argument('--dataset', type=str, default='ITS')
 parser.add_argument('--val_dataset_dir', type=str)
-parser.add_argument('--model', type=str, default='baseline', help='model name')
-parser.add_argument('--exp_name', type=str, default='DEA-Net', help='experiment name')
+parser.add_argument('--model_name', type=str, default='DEA-Net', help='experiment name')
 parser.add_argument('--saved_infer_dir', type=str, default='saved_infer_dir')
 
 # only need for evaluation
@@ -18,7 +17,7 @@ opt=parser.parse_args()
 
 opt.val_dataset_dir = os.path.join('../dataset/', opt.dataset, 'test')
 exp_dataset_dir = os.path.join(opt.exp_dir, opt.dataset)
-exp_model_dir = os.path.join(exp_dataset_dir, opt.exp_name)
+exp_model_dir = os.path.join(exp_dataset_dir, opt.model_name)
 
 if not os.path.exists(opt.exp_dir):
     os.mkdir(opt.exp_dir)
