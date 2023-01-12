@@ -108,7 +108,7 @@ dataset/
 
 ### Evaluation
 
-1. Download the pre-trained models on [Google Drive] or [Baidu Disk (password: xxxx)].
+1. Download the pre-trained models on [[Google Drive](https://drive.google.com/drive/folders/1Rjb8dpyNnvvr0XLvIX9fg8Hdru_MhMCj?usp=sharing)] or [[Baidu Disk](https://pan.baidu.com/s/1retfKIs_Om-D4zA45sL6Kg) (password: dcyb)].
 2. Make sure the file structure is consistent with the following:
 
 ```
@@ -125,7 +125,7 @@ trained_models/
 
 ```
 cd code/
-python3 eval.py --dataset HAZE4K --model_name DEA-Net-CR --pre_trained_model PSNR3425_SSIM9985.pth
+python3 eval.py --dataset HAZE4K --model_name DEA-Net-CR --pre_trained_model PSNR3426_SSIM9885.pth
 python3 eval.py --dataset ITS --model_name DEA-Net-CR --pre_trained_model PSNR4131_SSIM9945.pth
 python3 eval.py --dataset OTS --model_name DEA-Net-CR --pre_trained_model PSNR3659_SSIM9897.pth
 ```
@@ -134,7 +134,7 @@ python3 eval.py --dataset OTS --model_name DEA-Net-CR --pre_trained_model PSNR36
 
 ```
 cd code/
-python3 eval.py --dataset HAZE4K --model_name DEA-Net-CR --pre_trained_model PSNR3425_SSIM9985.pth --save_infer_results
+python3 eval.py --dataset HAZE4K --model_name DEA-Net-CR --pre_trained_model PSNR3426_SSIM9885.pth --save_infer_results
 python3 eval.py --dataset ITS --model_name DEA-Net-CR --pre_trained_model PSNR4131_SSIM9945.pth --save_infer_results
 python3 eval.py --dataset OTS --model_name DEA-Net-CR --pre_trained_model PSNR3659_SSIM9897.pth --save_infer_results
 ```

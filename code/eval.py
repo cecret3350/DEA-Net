@@ -19,7 +19,7 @@ def eval(val_loader, network):
 
     network.eval()
 
-    for batch in tqdm(val_loader, desc='validation'):
+    for batch in tqdm(val_loader, desc='evaluation'):
         hazy_img = batch['hazy'].cuda()
         clear_img = batch['clear'].cuda()
 

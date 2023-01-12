@@ -29,6 +29,8 @@ opt.saved_infer_dir = os.path.join(exp_model_dir, opt.pre_trained_model.split('.
 if not os.path.exists(exp_model_dir):
     os.mkdir(exp_model_dir)
     os.mkdir(opt.saved_infer_dir)
+if not os.path.exists(opt.saved_infer_dir):
+    os.mkdir(opt.saved_infer_dir)
 
 with open(os.path.join(exp_model_dir, 'args.txt'), 'w') as f:
     json.dump(opt.__dict__, f, indent=2)
