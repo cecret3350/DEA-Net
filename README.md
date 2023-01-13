@@ -6,7 +6,7 @@
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2301.04805)
 [![Model](https://img.shields.io/badge/GoogleDrive-Weight-blue)](https://drive.google.com/drive/folders/1Rjb8dpyNnvvr0XLvIX9fg8Hdru_MhMCj?usp=sharing)
-[![Model](https://img.shields.io/badge/BaiduNetdisk-Weight-blue)](https://pan.baidu.com/s/1retfKIs_Om-D4zA45sL6Kg)
+[![Model](https://img.shields.io/badge/BaiduNetdisk-Weight-blue)](https://pan.baidu.com/s/1retfKIs_Om-D4zA45sL6Kg?pwd=dcyb)
 
 This repo is the official implementation of "DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention".
 
