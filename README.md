@@ -4,6 +4,10 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dea-net-single-image-dehazing-based-on-detail/image-dehazing-on-sots-outdoor)](https://paperswithcode.com/sota/image-dehazing-on-sots-outdoor?p=dea-net-single-image-dehazing-based-on-detail)
 # DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention
 
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2301.04805)
+
+[![Model](https://img.shields.io/badge/GoogleDrive-Weight-blue)](https://drive.google.com/drive/folders/1Rjb8dpyNnvvr0XLvIX9fg8Hdru_MhMCj?usp=sharing)
+
 This repo is the official implementation of "DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention".
 
 **News**:
