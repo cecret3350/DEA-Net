@@ -122,7 +122,7 @@ dataset/
 ```
 trained_models/
 ├── HAZE4K
-│   └── PSNR3425_SSIM9985.pth
+│   └── PSNR3426_SSIM9985.pth
 ├── ITS
 │   └── PSNR4131_SSIM9945.pth
 └── OTS
@@ -151,7 +151,7 @@ Inference results will be saved in ```experiment/<dataset>/<model_name>/<pre_tra
 ## Citation
 If you find our paper and repo are helpful for your research, please consider citing:
 
-```
+```bibtex
 @misc{chen2023deanet,
       title={DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention}, 
       author={Zixuan Chen and Zewei He and Zhe-Ming Lu},
