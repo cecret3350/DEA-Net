@@ -148,7 +148,7 @@ python3 eval.py --dataset OTS --model_name DEA-Net-CR --pre_trained_model PSNR36
 ```
 Inference results will be saved in ```experiment/<dataset>/<model_name>/<pre_trained_model>/```
 
-### Citation
+## Citation
 If you find our paper and repo are helpful for your research, please consider citing:
 
 ```
@@ -162,5 +162,5 @@ If you find our paper and repo are helpful for your research, please consider ci
 }
 ```
 
-### Contact
+## Contact
 If you have any questions or suggestions about our paper and repo, please feel free to concat us via <22224039@zju.edu.cn>.
