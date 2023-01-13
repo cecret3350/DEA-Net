@@ -24,7 +24,7 @@ This repo is the official implementation of "[DEA-Net: Single image dehazing bas
 
 ## Getting Started
 
-### Enviroment
+### Environment
 
 1. Clone this repo:
 
@@ -33,7 +33,7 @@ git clone https://github.com/cecret3350/DEA-Net.git
 cd DEA-Net/
 ```
 
-2. Create a new conda enviroment and install dependencies:
+2. Create a new conda environment and install dependencies:
 
 ```
 conda create -n pytorch_1_10 python=3.8
