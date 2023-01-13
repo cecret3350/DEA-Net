@@ -148,5 +148,19 @@ python3 eval.py --dataset OTS --model_name DEA-Net-CR --pre_trained_model PSNR36
 ```
 Inference results will be saved in ```experiment/<dataset>/<model_name>/<pre_trained_model>/```
 
-## Citation
+### Citation
+If you find our paper and repo are helpful for your research, please consider citing:
 
+```
+@misc{chen2023deanet,
+      title={DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention}, 
+      author={Zixuan Chen and Zewei He and Zhe-Ming Lu},
+      year={2023},
+      eprint={2301.04805},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+### Contact
+If you have any questions or suggestions about our paper and repo, please feel free to concat us via ```22224039@zju.edu.cn```.
