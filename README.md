@@ -163,4 +163,4 @@ If you find our paper and repo are helpful for your research, please consider ci
 ```
 
 ## Contact
-If you have any questions or suggestions about our paper and repo, please feel free to concat us via <22224039@zju.edu.cn>.
+If you have any questions or suggestions about our paper and repo, please feel free to concat us via <22224039@zju.edu.cn> or <zeweihe@zju.edu.cn>.
