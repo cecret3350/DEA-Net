@@ -152,13 +152,11 @@ Inference results will be saved in ```experiment/<dataset>/<model_name>/<pre_tra
 If you find our paper and repo are helpful for your research, please consider citing:
 
 ```bibtex
-@misc{chen2023deanet,
-      title={DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention}, 
-      author={Zixuan Chen and Zewei He and Zhe-Ming Lu},
-      year={2023},
-      eprint={2301.04805},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{chen2023dea,
+  title={DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention},
+  author={Chen, Zixuan and He, Zewei and Lu, Zhe-Ming},
+  journal={arXiv preprint arXiv:2301.04805},
+  year={2023}
 }
 ```
 
