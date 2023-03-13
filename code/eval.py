@@ -41,8 +41,7 @@ def eval(val_loader, network):
 
 
 if __name__ == '__main__':
-    network = Backbone() 
-    network.cuda()
+    network = Backbone().cuda() 
 
     val_dataset = ValDataset(os.path.join(opt.val_dataset_dir, 'hazy'), os.path.join(opt.val_dataset_dir, 'clear'))
     val_loader = DataLoader(val_dataset,
