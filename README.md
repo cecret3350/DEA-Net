@@ -21,11 +21,11 @@ Zhejiang University
 
 This repo is the official implementation of "[DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention](https://arxiv.org/abs/2301.04805)".
 
-**News**:
+## News
 
-- Jan 8, 2024: :tada: :tada: :tada: Accepted by ***IEEE TIP***.
+- **Jan 08, 2024**: :tada::tada::tada: Accepted by ***IEEE TIP***.
 
-- Jan 11, 2023: Released evaluation codes and reparameterized pre-trained models.
+- **Jan 11, 2023**: Released evaluation codes and reparameterized pre-trained models.
 
 ## Overall Architecture
 
