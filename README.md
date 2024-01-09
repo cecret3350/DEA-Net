@@ -6,7 +6,9 @@
 <div align="center"> 
 
 <h2> 
-DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention (IEEE TIP 2024)
+DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention 
+
+(IEEE TIP 2024)
 </h2>
 
 
