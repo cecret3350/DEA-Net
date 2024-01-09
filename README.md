@@ -5,7 +5,9 @@
 
 <div align="center"> 
 
-# DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention (IEEE TIP 2024)
+<h2> 
+DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention (IEEE TIP 2024)
+</h2>
 
 
 [Zixuan Chen](https://scholar.google.com.hk/citations?user=pwixOhcAAAAJ&hl=ja&oi=sra), [Zewei He](https://scholar.google.com.hk/citations?user=yCHs_IsAAAAJ&hl=ja&oi=sra), [Zheming Lu]()
