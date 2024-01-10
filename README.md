@@ -27,6 +27,8 @@ This repo is the official implementation of "[DEA-Net: Single image dehazing bas
 
 ## News
 
+- **Jan 10, 2024**: :fire::fire::fire: The implementation for ***DEConv***  and  training codes for ***DEA-Net-CR*** are available now.
+
 - **Jan 08, 2024**: :tada::tada::tada: Accepted by ***IEEE TIP***.
 
 - **Jan 11, 2023**: Released evaluation codes and reparameterized pre-trained models.
@@ -130,6 +132,15 @@ dataset/
             └── 0008_0.8_0.04.jpg
             └── ...
 ```
+
+### Training
+
+1. Run the following script to train DEA-Net-CR from scratch:
+
+```
+CUDA_VISIBLE_DEVICES=0 python train.py --epochs 300 --iters_per_epoch 5000 --finer_eval_step 1400000 --w_loss_L1 1.0 --w_loss_CR 0.1 --start_lr 0.0001 --end_lr 0.000001 --exp_dir ../experiment/ --model_name DEA-Net-CR --dataset ITS
+```
+
 
 ### Evaluation
 

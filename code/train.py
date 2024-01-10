@@ -174,9 +174,9 @@ if __name__ == "__main__":
 
     set_seed_torch(666)
 
-    train_dir = '/home/czx/Desktop/dataset/RESIDE/ITS'
+    train_dir = '../dataset/RESIDE/ITS/train'
     train_set = TrainDataset(os.path.join(train_dir, 'hazy'), os.path.join(train_dir, 'clear'))
-    test_dir = '/home/czx/Desktop/dataset/RESIDE/SOTS/indoor'
+    test_dir = '../dataset/RESIDE/ITS/test'
     test_set = TestDataset(os.path.join(test_dir, 'hazy'), os.path.join(test_dir, 'clear'))
     loader_train = DataLoader(dataset=train_set, batch_size=16, shuffle=True, num_workers=12)
     loader_test = DataLoader(dataset=test_set, batch_size=1, shuffle=False, num_workers=4)
