@@ -27,6 +27,8 @@ This repo is the official implementation of "[DEA-Net: Single image dehazing bas
 
 ## News
 
+- **Apr 21, 2024**: :fire::fire::fire: The implementation for ***Re-Parameterization*** are available now.
+
 - **Jan 10, 2024**: :fire::fire::fire: The implementation for ***DEConv***  and  training codes for ***DEA-Net-CR*** are available now.
 
 - **Jan 08, 2024**: :tada::tada::tada: Accepted by ***IEEE TIP***.
