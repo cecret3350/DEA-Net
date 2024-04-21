@@ -185,10 +185,12 @@ If you find our paper and repo are helpful for your research, please consider ci
 @article{chen2023dea,
   title={DEA-Net: Single image dehazing based on detail-enhanced convolution and content-guided attention},
   author={Chen, Zixuan and He, Zewei and Lu, Zhe-Ming},
-  journal={arXiv preprint arXiv:2301.04805},
-  year={2023}
+  journal={IEEE Transactions on Image Processing},
+  year={2024},
+  volume={33},
+  pages={1002-1015}
 }
 ```
 
 ## Contact
-If you have any questions or suggestions about our paper and repo, please feel free to concat us via <22224039@zju.edu.cn> or <zeweihe@zju.edu.cn>.
+If you have any questions or suggestions about our paper and repo, please feel free to concat us via <zxchen@zju.edu.cn> or <zeweihe@zju.edu.cn>.
