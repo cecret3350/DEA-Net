@@ -27,6 +27,8 @@ This repo is the official implementation of "[DEA-Net: Single image dehazing bas
 
 ## News
 
+- **Ocr 27, 2024**: :tada::tada::tada: Our following work "[Prompt-Based Test-Time Real Image Dehazing: A Novel Pipeline](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09815.pdf)" is accepted by ECCV 2024, and the [source code](https://github.com/cecret3350/PTTD-Dehazing) is available now.
+
 - **Apr 21, 2024**: :fire::fire::fire: The implementation for ***Re-Parameterization*** are available now.
 
 - **Jan 10, 2024**: :fire::fire::fire: The implementation for ***DEConv***  and  training codes for ***DEA-Net-CR*** are available now.
